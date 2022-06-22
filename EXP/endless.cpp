@@ -2,7 +2,9 @@
 using namespace std;
 
 void iAmEndL(){
-cout<<"Defective/path/"<<endl;
+    static int count = 0;
+    count ++;
+cout<<"Defective/path/"<<"----"<<count<<endl;
 iAmEndL();
 }
 
